@@ -24,6 +24,29 @@ Further analysis, however, shows that not all manufacturing lots have met this r
 
 ## T-Tests on Suspension Coils
 
+I conducted further analysis of suspension coil data by using T-tests to determine whether the results of all manufacturing lots and each lot individually are statistically different from a population mean of 1500. 
+
+- A T-test of all manufacturing lots resulted in a p-value of 0.06, above the significance level of 0.05. This indicates that the mean from all manufacturing lots is statistically similar to the population mean.
+
+![](images/PSI_all.png)
+
+- T-tests of Lots 1 and 2 both return similar results. The result for Lot 1 is a p-value of 1.0. The p-value for Lot 2 is 0.6, both well above the assumed significance level. The mean PSI of coils produced at these lots is statistically very similar to the population mean.
+- A T-Test of Lot 3, however, results in a P-value of 0.04. This falls below the significance level and shows that production results from Lot 3 are not consistent with desired outcomes.\
+
+![](images/lot3.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

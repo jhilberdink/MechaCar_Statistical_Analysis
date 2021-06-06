@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-This project performs a statistical analysis of production data for the MechaCar. The first section presents a multiple linear regression to predict fuel efficiency of MechaCar prototypes. The second and third sections analyze suspension coil metrics to determine if the consistency of manufacturing at different sites. Finally, I propose a statistical study that could be used to compare the performance of MechaCar vehicles against vehicles from other competitors.
+This project performs a statistical analysis of production data for the MechaCar. The first section presents a multiple linear regression to predict fuel efficiency of MechaCar prototypes. The second and third sections analyze suspension coil metrics to determine if the consistency of different manufacturing lots. Finally, I propose a statistical study that could be used to compare the performance of MechaCar vehicles against vehicles from other competitors.
 
 ## Linear Regression to Predict MPG
 
@@ -13,6 +13,18 @@ A multiple linear regression to determine the impact of a range of metrics on th
 - The resulting R-squared value means that the linear can predict the MPG of MechaCar prototypes with 71% effectiveness. This is better than random chance, but it is clear that there are still significant factors that are not accounted for in this model.
 
 ## Summary Statistics on Suspension Coils
+
+MechaCar design specifications require that the variance of suspension coils not exceed 100 pounds per square inch. Current production data shows that MechaCar manufacturing lots as a whole have met this standard.
+
+![](images/total_summary.png)
+
+Further analysis, however, shows that not all manufacturing lots have met this requirement. Lots 1 and 2 have achieved very consistent results, but Lot 3 is well over the limit, with a variance of 170 PSI.
+
+![](images/lot_summary.png)
+
+## T-Tests on Suspension Coils
+
+
 
 
 

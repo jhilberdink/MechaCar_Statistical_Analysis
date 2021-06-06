@@ -42,7 +42,7 @@ To compare the fuel economy of MechaCar vehicles against competitor vehicles, I 
 - The metrics to be tested would be city and highway fuel efficiency. Two ANOVA tests would be required--one for each metric. Vehicle Manufacturer would be the independent variable in the tests.
 - The null hypothesis is that there is not a meaningful difference in fuel efficiency in cars produced by different manufacturers
 - I selected an ANOVA test for this study because it allows testing a single dependent variable across an independent variable with multiple groups--in this case, fuel efficiency of vehicles based on manufactuer.
-- The data required would be the fuel efficiency of different vehicles by manufactuer.
+- The data required would be the fuel efficiency of different vehicles by manufacturer. 
 
 
 

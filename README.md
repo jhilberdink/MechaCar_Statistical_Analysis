@@ -30,7 +30,14 @@ I conducted further analysis of suspension coil data by using T-tests to determi
 
 ![](images/PSI_all.png)
 
-- T-tests of Lots 1 and 2 both return similar results. The result for Lot 1 is a p-value of 1.0. The p-value for Lot 2 is 0.6, both well above the assumed significance level. The mean PSI of coils produced at these lots is statistically very similar to the population mean.
+- T-tests of Lots 1 and 2 both return similar results. The result for Lot 1 is a p-value of 1.0. The p-value for Lot 2 is 0.6, both well above the assumed significance level. The mean PSI of coils produced at these lots is statistically very similar to the population mean. The T-tests results for Lots 1 and 2 respectively are included below:
+
+![](images/lot1.png)
+
+![](images/lot2.png)
+
+
+
 - A T-Test of Lot 3, however, results in a P-value of 0.04. This falls below the significance level and shows that production results from Lot 3 are not consistent with desired outcomes.\
 
 ![](images/lot3.png)

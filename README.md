@@ -1,6 +1,6 @@
 # MechaCar_Statistical_Analysis
 
-This project performs a statistical analysis of production data for the MechaCar. The first section presents a multiple linear regression to predict fuel efficiency of MechaCar prototypes. The second and third sections analyze suspension coil metrics to determine if the consistency of different manufacturing lots. Finally, I propose a statistical study that could be used to compare the performance of MechaCar vehicles against vehicles from other competitors.
+For this project, I performed a statistical analysis of production data for MechaCar vehicles. The first section presents a multiple linear regression to predict fuel efficiency of MechaCar prototypes. The second and third sections analyze suspension coil metrics to determine if the consistency of different manufacturing lots. Finally, I propose a statistical study that could be used to compare the performance of MechaCar vehicles against vehicles from other competitors.
 
 ## Linear Regression to Predict MPG
 
@@ -35,9 +35,14 @@ I conducted further analysis of suspension coil data by using T-tests to determi
 
 ![](images/lot3.png)
 
+## Study Design: MechaCar vs. Competition
 
+To compare the fuel economy of MechaCar vehicles against competitor vehicles, I would use an ANOVA test.
 
-
+- The metrics to be tested would be city and highway fuel efficiency. Two ANOVA tests would be required--one for each metric. Vehicle Manufacturer would be the independent variable in the tests.
+- The null hypothesis is that there is not a meaningful difference in fuel efficiency in cars produced by different manufacturers
+- I selected an ANOVA test for this study because it allows testing a single dependent variable across an independent variable with multiple groups--in this case, fuel efficiency of vehicles based on manufactuer.
+- The data required would be the fuel efficiency of different vehicles by manufactuer.
 
 
 
